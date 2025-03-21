@@ -29,7 +29,7 @@ CadastroMedico
 
 1. **Clone o repositório:**
    ```bash
-   git clone <URL do repositório>
+   git clone https://github.com/carlosefcandido/cadastro_medico
    ```
 
 2. **Configure o Banco de Dados:**
