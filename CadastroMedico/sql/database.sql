@@ -1,0 +1,22 @@
+CREATE TABLE IF NOT EXISTS medicos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome_completo VARCHAR(255) NOT NULL,
+    cpf VARCHAR(14) NOT NULL UNIQUE,
+    rg VARCHAR(20) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    genero ENUM('Masculino', 'Feminino', 'Outro') NOT NULL,
+    telefone VARCHAR(20),
+    email VARCHAR(100),
+    endereco_cep VARCHAR(10),
+    endereco_rua VARCHAR(255),
+    endereco_numero VARCHAR(10),
+    endereco_complemento VARCHAR(50),
+    endereco_bairro VARCHAR(100),
+    endereco_cidade VARCHAR(100),
+    endereco_estado VARCHAR(2),
+    numero_crm VARCHAR(20) NOT NULL,
+    estado_emissao_crm VARCHAR(2) NOT NULL,
+    especialidades TEXT,
+    subespecialidades TEXT,
+    data_emissao_crm DATE NOT NULL
+);
