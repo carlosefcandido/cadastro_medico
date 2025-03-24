@@ -14,10 +14,8 @@ CadastroMedico
 │   ├── style.css         # Estilos para as páginas HTML
 │   └── script.js         # Funcionalidades em JavaScript
 ├── src
-│   ├── config.php        # Configurações da aplicação PHP (opcional)
 │   ├── db.php            # Conexão com o banco de dados MySQL
 │   ├── create.php        # Lógica para inserir novos registros médicos
-│   ├── read.php          # Lógica para recuperar registros médicos (backend)
 │   ├── update.php        # Lógica para atualizar registros médicos existentes
 │   └── delete.php        # Lógica para deletar registros médicos
 ├── sql
